@@ -38,6 +38,7 @@ sh AUR/install-mintstick-git-v*.sh
 echo "Installing category Development"
 
 sh AUR/install-sublime-text-v*.sh
+sh AUR/install-visual-studio-code-bin-v1.sh
 
 echo "Installing category Education"
 
@@ -50,6 +51,7 @@ echo "Installing category Graphics"
 
 echo "Installing category Internet"
 
+sh AUR/install-vivaldi-v1.sh
 
 echo "Installing category Multimedia"
 
@@ -73,8 +75,8 @@ sh AUR/install-neofetch-v*.sh
 sh AUR/install-numix-circle-icon-theme-git-v*.sh
 sh AUR/install-oxy-neon-v*.sh
 sh AUR/install-pamac-aur-v*.sh
-#sh AUR/install-paper-icon-theme-git-v*.sh
-#sh AUR/install-papirus-icon-theme-git-v*.sh
+sh AUR/install-paper-icon-theme-git-v*.sh
+sh AUR/install-papirus-icon-theme-git-v*.sh
 sh AUR/install-sardi-icons-v*.sh
 sh AUR/install-sardi-extra-icons-v*.sh
 sh AUR/install-screenkey-git-v*.sh
